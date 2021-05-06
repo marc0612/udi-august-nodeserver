@@ -56,12 +56,12 @@ class Controller(polyinterface.Controller):
             if 'email' in self.polyConfig['customParams']:
                 self.email = self.polyConfig['customParams']['email']
             else:
-                self.email = ""
+                self.email = "mlf@fineberg.org"
                 
             if 'password' in self.polyConfig['customParams']:
                 self.password = self.polyConfig['customParams']['password']
             else:
-                self.password = ""
+                self.password = "g0612Uaq812W71!"
             
             # Generate a UUID ( 11111111-1111-1111-1111-111111111111 )
             if 'install_id' in self.polyConfig['customParams']:
